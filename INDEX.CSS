@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box; 
+}
+
+body{
+    font-family: 'Time New Roman';
+    margin: 0; 
+}
+
+h1{ font-size: 2.5em;}
+h2{ font-size: 2.5em;}
+h3{font-size: 2em;}
+p{font-size: 1.25em;}
+li {font-size: 1.25em;}
+button{
+    font-size: 1.6em;
+    font-weight: bold;
+    padding: 5px 20px;
+    border-radius: 10px;
+    border-color:blueviolet ;
+    box-shadow: 3px 3px 15px  rgb(4, 12, 239);
+    color:aliceblue;
+    background-color:darkorchid;
+}
+
+button:hover{
+    background-color: rgb(112, 39, 180);
+}
+
+.container{ 
+    max-width: 1080px;
+    margin: auto;
+}
+
+.color-acento{ color:rgba(25,204,204)}
+
+header{
+    background-color: rgb(221, 219, 219);
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color:rgb(25, 204, 204);
+    font-size: 1.6em;
+    text-align: center;
+}
+
+
+header .logo2{
+    text-align: center;
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color:rgb(25, 204, 204);
+    font-size: 1.em;
+}
+
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color:darkblue;
+}
+
+header a:hover{
+    color:blueviolet;
+}
+
+#quienessomos p{
+    display: none;
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color:aliceblue;
+    background-image:    linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),url("electronica1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+}
+
+#hero h1{
+    color:white;
+}
+
+
+#somos-garcia .container{
+    text-align: center;
+    padding: 200px 12px;
+    flex-direction: column;
+    display: flex;
+}
+
+p  {
+    width: 600px;
+    margin: 10px auto;
+    padding: 5px;
+    border: solid 2px rgb(254, 252, 251);
+    font: normal 13px arial, helvetica, sans-serif;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    
+    }
+
+#contacto .container{
+    margin: 0;
+    font: normal 13px arial, helvetica, sans-serif;
+    text-align: center;
+    text-align: justify;
+    padding: 25px 12px;
+}
